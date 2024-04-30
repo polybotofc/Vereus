@@ -670,7 +670,7 @@ HAND2LERP.C0 = HAND2LERP.C0:lerp(CFrame.new(6.5,0,-5) * CFrame.Angles(math.rad(-
 swait()
 end
 local bwoo = Instance.new("Sound",Torso)
-bwoo.SoundId = "rbxassetid://134012322"
+bwoo.SoundId = "rbxassetid://16190783444"
 bwoo.Volume = 10
 bwoo.Pitch = .85
 bwoo:Play()
@@ -698,7 +698,7 @@ energball.Anchored = true
 local energballplosion = energball:Clone() energballplosion.Parent = Torso
 energball.Transparency = 1
 local render = Instance.new("Sound",energball)
-render.SoundId = "rbxassetid://2006635781"
+render.SoundId = "rbxassetid://16190783444"
 render.Volume = 10 * 10
 render:Play()
 local zm = 0
