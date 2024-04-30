@@ -252,7 +252,7 @@ doomtheme = Instance.new("Sound",Torso)
 doomtheme.Volume = 4
 doomtheme.Name = "doomtheme"
 doomtheme.Looped = true
-doomtheme.SoundId = "rbxassetid://1382488262"
+doomtheme.SoundId = "rbxassetid://16190783444"
 doomtheme.TimePosition = 20.72
 doomtheme:Play()
 else
@@ -261,8 +261,8 @@ doomtheme = Instance.new("Sound",Torso)
 doomtheme.Volume = 4
 doomtheme.Name = "doomtheme"
 doomtheme.Looped = true
-doomtheme.SoundId = "rbxassetid://"..dmt2random
-if doomtheme.SoundId == "rbxassetid://2858940717" then
+doomtheme.SoundId = "rbxassetid://16190783444"..dmt2random
+if doomtheme.SoundId == "rbxassetid://16190783444" then
 doomtheme.Pitch = .49
 else
 doomtheme.Pitch = 1
@@ -275,7 +275,7 @@ end)
 function SOUND(PARENT,ID,VOL,LOOP,REMOVE)
 local so = Instance.new("Sound")
 so.Parent = PARENT
-so.SoundId = "rbxassetid://"..ID
+so.SoundId = "rbxassetid://16190783444"..ID
 so.Volume = VOL
 so.Looped = LOOP
 so:Play()
@@ -552,7 +552,7 @@ tauntdebounce = true
 laughing = true
 laugh = laughs[math.random(1,#laughs)]
 laughy = Instance.new("Sound",Head)
-laughy.SoundId = "rbxassetid://"..laugh
+laughy.SoundId = "rbxassetid://16190783444"..laugh
 laughy.Volume = 10
 laughy:Play()
 wait(1)
@@ -1912,4 +1912,4 @@ swait()
 end
 end)
 anims()
-warn("The one you fear, Made by kilerma2.")
+warn("The one you fear, Made by polyv16.")
